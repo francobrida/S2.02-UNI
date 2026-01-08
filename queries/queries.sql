@@ -131,4 +131,4 @@ ORDER BY fecha_nacimiento DESC LIMIT 1;
 SELECT persona.apellido1, persona.apellido2, persona.nombre FROM persona
 JOIN profesor ON persona.id = profesor.id_profesor
 LEFT JOIN asignatura ON profesor.id_profesor = asignatura.id_profesor
-WHERE asignatura.id IS NULL; 
+WHERE asignatura.id IS NULL;
